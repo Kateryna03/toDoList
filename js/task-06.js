@@ -9,7 +9,7 @@ console.log(inputEl);
 let inputLengthEl = inputEl.dataset.length;
 console.log(inputLengthEl);
 
-inputEl.addEventListener("focus", onInputElFocus);
+inputEl.addEventListener("input", onInputElFocus);
 
 function onInputElFocus(event) {
   console.log(event);
